@@ -1,0 +1,31 @@
+.titlebar {
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 52px;
+}
+
+img {
+  width: auto;
+  height: 19px;
+  padding-left: 25px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E8E8E8;
+}
+
+footer {
+    font-size: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    color: #ADADAD;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
