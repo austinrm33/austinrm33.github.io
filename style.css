@@ -2,15 +2,14 @@
   overflow: hidden;
   background-color: black;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 52px;
+  height: 53px;
 }
 
 .company-logo {
   width: auto;
-  height: 19px;
-  padding-left: 25px;
-  padding-top: 17px;
-  padding-bottom: 17px;
+  height: 20px;
+  margin: 17px;
+  margin-left: 25px;
 }
 
 body {
@@ -19,14 +18,36 @@ body {
   background-color: #E8E8E8;
 }
 
+#loading-bar-spinner.spinner {
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 19 !important;
+    animation: loading-bar-spinner 400ms linear infinite;
+}
+
+#loading-bar-spinner.spinner .spinner-icon {
+    width: 35px;
+    height: 35px;
+    border:  solid 3px transparent;
+    border-top-color:  black !important;
+    border-left-color: black !important;
+    border-radius: 50%;
+}
+
+@keyframes loading-bar-spinner {
+  0%   { transform: rotate(0deg);   transform: rotate(0deg); }
+  100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+
 .card-1 {
   background: #fff;
   border-radius: 2px;
-  display: inline-block;
   height: 300px;
-  margin: 1rem;
-  position: relative;
   width: 300px;
+  margin: 15px;
 }
 
 .card-1 {
