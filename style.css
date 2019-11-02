@@ -2,6 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #E8E8E8;
+}
+
 .titlebar {
   overflow: hidden;
   position: sticky;
@@ -13,25 +23,21 @@ html {
 
 .container {
   overflow: hidden;
-  height: 21px;
-  margin-top: 18px;
-  margin-bottom: 6px;
   width: 180px;
-  margin-left: 20px;
+  height: 20px;
+  margin: 17px 25px;
 }
 
 .company-logo {
+  overflow: hidden;
   width: auto;
   height: 20px;
-  padding-top: 0px;
-  margin-top: 0px;
 }
-
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: #E8E8E8;
-  height: 2000px;
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 300px;
+  margin: 1rem;
 }
 
 #loading-bar-spinner.spinner {
@@ -69,7 +75,6 @@ body {
 .card-1 {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-
 
 footer {
     font-size: 11px;
