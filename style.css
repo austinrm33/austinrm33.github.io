@@ -12,20 +12,34 @@ body {
   background-color: #E8E8E8;
 }
 
+footer {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #ADADAD;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+
 .titlebar {
   overflow: hidden;
   position: sticky;
   top: 0;
   background-color: black;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 53px;
+  height: 52px;
 }
 
 .container {
   overflow: hidden;
+  position: relative;
+  top: 16px;
   width: 180px;
   height: 20px;
-  margin: 17px 25px;
+  margin-left: 24px;
 }
 
 .company-logo {
@@ -63,26 +77,3 @@ body {
   0%   { transform: rotate(0deg);   transform: rotate(0deg); }
   100% { transform: rotate(360deg); transform: rotate(360deg); }
 }
-
-.card-1 {
-  background: #fff;
-  border-radius: 2px;
-  height: 300px;
-  width: 300px;
-  margin: 15px;
-}
-
-.card-1 {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-footer {
-    font-size: 11px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    color: #ADADAD;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
