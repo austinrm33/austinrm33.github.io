@@ -196,6 +196,8 @@ select {
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 #loading-bar-spinner.spinner {
