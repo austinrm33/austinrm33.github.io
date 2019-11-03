@@ -12,6 +12,17 @@ body {
   background-color: #E8E8E8;
 }
 
+H3 {
+  font-family: 'Roboto', sans-serif;
+  color: Black;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  border-bottom: 1px solid grey;
+}
+
 .titlebar {
   overflow: hidden;
   position: sticky;
@@ -30,24 +41,42 @@ body {
   height: 27px;
   float: right;
   margin-right: 24px;
-  border-left: 1px solid grey;
-  padding-left: 15px;
+  border-left: 1px solid #454545;
+  padding-left: 16px;
 }
 
 .company-logo-container {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  top: 17px;
-  width: 180px;
-  height: 21px;
+  width: 200px;
+  height: 27px;
   margin-left: 24px;
+  padding-right: 20px;
+  margin-bottom: 13px;
+  padding-top: 4px;
+  border-right: 1px solid #454545;
+  top: 2px;
+
 }
 
 .company-logo {
   overflow: hidden;
   width: auto;
   height: 20px;
+}
+
+.page-name, h1 {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  width: 200px;
+  color: white;
+  margin-left: 8px;
+  margin-top: 8px;
 }
 
 .user-name {
@@ -79,6 +108,7 @@ body {
 }
 
 .card-1 {
+  overflow: hidden;
   background: #fff;
   border-radius: 2px;
   height: 300px;
@@ -89,6 +119,7 @@ body {
 }
 
 .card-2 {
+  overflow: hidden;
   background: #fff;
   border-radius: 2px;
   height: 700px;
