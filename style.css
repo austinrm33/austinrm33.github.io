@@ -12,6 +12,18 @@ body {
   background-color: #E8E8E8;
 }
 
+h2 {
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ADADAD;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
 H3 {
   font-family: 'Roboto', sans-serif;
   color: Black;
@@ -21,6 +33,20 @@ H3 {
   padding-bottom: 16px;
   padding-left: 16px;
   border-bottom: 1px solid grey;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: black;
+  color: white;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .titlebar {
@@ -49,50 +75,38 @@ H3 {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  width: 200px;
+  width: 180px;
   height: 27px;
-  margin-left: 24px;
-  padding-right: 20px;
-  margin-bottom: 13px;
-  padding-top: 4px;
+  margin-left: 20px;
   border-right: 1px solid #454545;
-
+  top: 13px;
 }
 
 .company-logo {
-  overflow: hidden;
   width: auto;
-  height: 20px;
+  height: 23px;
+  padding-top: 5px;
 }
 
-.page-name, h1 {
+.page-select {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  width: 200px;
-  color: white;
-  margin-left: 8px;
-  margin-top: 9px;
+  top: 11px;
+  margin-left: 15px;
 }
 
 .user-name {
   font-family: 'Roboto', sans-serif;
   color: white;
-  overflow: hidden;
   position: relative;
-  display: inline-block;
   top: 5px;
   font-weight: 300;
   font-size: 15px;
   float: right;
-  text-decoration: none;
 }
 
 .user-icon {
-    overflow: hidden;
     width: 20px;
     height: auto;
     margin-right: 9px;
@@ -121,44 +135,46 @@ H3 {
   overflow: hidden;
   background: #fff;
   border-radius: 2px;
-  height: 700px;
+  height: 300px;
   margin: 20px;
   position: relative;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   z-index: 2;
 }
 
-h2 {
-    font-size: 11px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #ADADAD;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
-
 .container-footer {
   overflow: hidden;
   height: 40px;
 }
 
+.container-loading {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  overflow: hidden;
+  top: 35px;
+  left: 25px;
+}
+
+.loading-text {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
 #loading-bar-spinner.spinner {
-    left: 50%;
-    margin-left: -20px;
-    top: 50%;
-    margin-top: -20px;
-    position: absolute;
-    z-index: 19 !important;
+    position: relative;
+    display: inline-block;
+    width: 22px;
     animation: loading-bar-spinner 400ms linear infinite;
 }
 
 #loading-bar-spinner.spinner .spinner-icon {
-    width: 35px;
-    height: 35px;
-    border:  solid 3px transparent;
+    width: 22px;
+    height: 22px;
+    border:  solid 2px transparent;
     border-top-color:  black !important;
     border-left-color: black !important;
     border-radius: 50%;

@@ -12,17 +12,18 @@
   <link href="./style.css" type="text/css" rel="stylesheet">
 </head>
 
-<!--
-<div id="loading-bar-spinner" class="spinner"><div class="spinner-icon"></div></div>
--->
-
 <body>
   <div class="titlebar">
       <div class="company-logo-container">
           <a href="./index.html"><img class="company-logo" src="https://user-images.githubusercontent.com/57072935/67711916-f6a31300-f990-11e9-89da-85b7d4616795.png"></a>
       </div>
-      <div class="page-name">
-        <H1>Program Performance</H1>
+      <div class="page-select">
+        <select onchange="location = this.options[this.selectedIndex].value;">
+          <option selected disabled>Program Performance</option>
+          <option value="./inventory.html">Inventory</option>
+          <option value="./attribution.html">Sales Attribution</option>
+          <option value="./admin.html">Admin</option>
+        </select>
       </div>
       <div class="titlebar-tools-container">
         <div class="user-name">
@@ -33,7 +34,12 @@
 
    </div>
 
-<div class="breadcrumb-bar"></div>
+   <div class="breadcrumb-bar">
+     <div class="container-loading">
+       <div class="loading-text">Loading...</div>
+       <div id="loading-bar-spinner" class="spinner"><div class="spinner-icon"></div></div>
+     </div>
+   </div>
 
 <div class="card-1">
  <h3>Performance Summary</h3>
@@ -47,13 +53,13 @@
   <h2>© 2019 CDK Global, CDK Global is a trademark of CDK Global, LLC.</h2>
 </div>
 
-<!--
+
 <script>
   $(window).on("load",function(){
-    $(".spinner").fadeOut("slow");
+    $(".container-loading").fadeOut("slow");
   });
 </script>
--->
+
 
 </body>
 </html>
