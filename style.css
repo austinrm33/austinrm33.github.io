@@ -29,34 +29,6 @@ select {
   font-weight: 400;
 }
 
-.container-left {
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  box-sizing: inherit;
-  width: calc(100% - 450px) !important;
-  height: 1000px;
-}
-
-.container-right {
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  box-sizing: inherit;
-  width: 445px;
-  height: 1000px;
-}
-
-.floating-text {
-  font-family: 'Roboto', sans-serif;
-  color: Black;
-  font-weight: 500;
-  font-size: 18px;
-  position: relative;
-  padding-left: 16px;
-  margin-top: 16px;
-}
-
 .titlebar {
   overflow: hidden;
   position: sticky;
@@ -164,9 +136,32 @@ select {
   border-bottom: none;
 }
 
-.container-footer {
+.container-left {
   overflow: hidden;
-  height: 40px;
+  position: relative;
+  display: inline-block;
+  box-sizing: inherit;
+  width: calc(100% - 450px) !important;
+  height: 1000px;
+}
+
+.container-right {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  box-sizing: inherit;
+  width: 445px;
+  height: 1000px;
+}
+
+.floating-text {
+  font-family: 'Roboto', sans-serif;
+  color: Black;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  padding-left: 16px;
+  margin-top: 16px;
 }
 
 .container-loading {
@@ -184,6 +179,11 @@ select {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+}
+
+.container-footer {
+  overflow: hidden;
+  height: 40px;
 }
 
 .footer-text {
