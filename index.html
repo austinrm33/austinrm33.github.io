@@ -19,10 +19,10 @@
       </div>
       <div class="page-select">
         <select onchange="location = this.options[this.selectedIndex].value;">
-          <option selected disabled>Program Performance</option>
-          <option value="./inventory.html">Inventory</option>
+          <option selected disabled>Dealer Performance</option>
+          <option value="./inventory.html">Inventory Mgmt</option>
           <option value="./attribution.html">Sales Attribution</option>
-          <option value="./admin.html">Admin</option>
+          <option value="./admin.html">Program Admin</option>
         </select>
       </div>
       <div class="titlebar-tools-container">
@@ -53,6 +53,14 @@
   <h2>© 2019 CDK Global, CDK Global is a trademark of CDK Global, LLC.</h2>
 </div>
 
+
+<script>
+$(document).ready(function() {
+    $('select').change(function(){
+        $(this).width($('select option:selected').width());
+    });
+});
+</script>
 
 <script>
   $(window).on("load",function(){

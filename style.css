@@ -41,8 +41,12 @@ select {
   -o-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: black;
+  display: block;
+  padding: 10px 24px 10px 10px;
+  background: black url(https://user-images.githubusercontent.com/57072935/68091145-b71d7080-fe41-11e9-8e81-026f79217945.png) no-repeat 95% center;
+  background-size: 5%;
   color: white;
+  outline: none;
   border: none;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -75,11 +79,10 @@ select {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  width: 180px;
+  width: 184px;
   height: 27px;
   margin-left: 20px;
   border-right: 1px solid #454545;
-  top: 13px;
 }
 
 .company-logo {
@@ -92,8 +95,8 @@ select {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  top: 11px;
-  margin-left: 15px;
+  top: 8px;
+  margin-left: 3px;
 }
 
 .user-name {
