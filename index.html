@@ -2,62 +2,50 @@
 <html>
 
 <head>
-  <link rel='icon' href='https://user-images.githubusercontent.com/57072935/67712846-bf356600-f992-11e9-8972-2778c8393294.png' type='image/png'/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-  <link href="./style.css" type="text/css" rel="stylesheet">
-
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="titlebar">
-      <div class="company-logo-container">
-          <a href="./index.html"><img class="company-logo" src="https://user-images.githubusercontent.com/57072935/67711916-f6a31300-f990-11e9-89da-85b7d4616795.png"></a>
-      </div>
-      <div class="page-select">
-        <select onchange="location = this.options[this.selectedIndex].value;">
-          <option selected disabled>Performance</option>
-          <option value="./inventory.html">Inventory</option>
-          <option value="./attribution.html">Attribution</option>
-          <option value="./admin.html">Administration</option>
-        </select>
-      </div>
-      <div class="titlebar-tools-container">
-        <div class="user-name">
-           <a href="./admin.html" style="color:white; text-decoration:none;">Austin Mallia</a>
-        </div>
-        <a href="./admin.html"><img class="user-icon" src="https://user-images.githubusercontent.com/57072935/68075061-fc25a200-fd70-11e9-8944-eaf399a47aeb.png"></a>
-      </div>
 
-   </div>
+  <style>
+    body {
+      background: white;
+      padding-top: 5em;
+      display: flex;
+      justify-content: center;
+    }
 
-   <div class="breadcrumb-bar">
-     <div class="container-loading">
-       <div class="loading-text">Loading...</div>
-       <div id="loading-bar-spinner" class="spinner"><div class="spinner-icon"></div></div>
-     </div>
-   </div>
+    /* DEMO-SPECIFIC STYLES */
+    .typewriter h1 {
+      color: Black;
+      font-family: monospace;
+      font-size: 22px;
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
 
-<div class="card-1">
-  <!--<div class="floating-text">Text</div>-->
-</div>
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
 
-<div class="card-1">
-  <!--<div class="floating-text">Text</div>-->
-</div>
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #22E82A }
+    }
+</style>
 
-<div class="container-footer">
-  <div class="footer-text">© 2019 CDK Global, CDK Global is a trademark of CDK Global, LLC.</div>
-</div>
-<script>
-  $(window).on("load",function(){
-    $(".container-loading").fadeOut("slow");
-  });
-</script>
-
+<body>
+  <div class="typewriter">
+    <h1>Hello....website coming soon</h1>
+  </div>
 
 </body>
 </html>
