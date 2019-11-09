@@ -19,7 +19,7 @@ select {
   appearance: none;
   display: block;
   padding: 10px 21px 10px 10px;
-  background: black url(https://user-images.githubusercontent.com/57072935/68091145-b71d7080-fe41-11e9-8e81-026f79217945.png) no-repeat 95% center;
+  background: black;
   background-size: 6%;
   color: white;
   outline: none;
