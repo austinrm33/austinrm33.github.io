@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+</head>
+
+<body>
+
+  <style>
+
+    body {
+      background: #FBF7ED;
+      padding-top: 5em;
+      display: flex;
+      justify-content: center;
+    }
+
+    .typewriter h1 {
+      color: #000839;
+      font-family: monospace;
+      font-size: 20px;
+      overflow: hidden;
+      border-right: .15em solid;
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #000839 }
+    }
+
+</style>
+
+  <div class="typewriter">
+    <h1>Website coming soon</h1>
+  </div>
+
+</body>
+
+</html>
