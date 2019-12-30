@@ -14,7 +14,7 @@ body {
 .top-text {
   font-family: 'Overpass', sans-serif;
   color: white;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 40px;
   position: relative;
   text-align: left;
@@ -23,7 +23,7 @@ body {
 .bottom-text {
   font-family: 'Overpass', sans-serif;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 65px;
   position: relative;
   text-align: left;
@@ -33,7 +33,7 @@ body {
   font-family: 'Overpass', sans-serif;
   color: white;
   font-weight: 200;
-  font-size: 25px;
+  font-size: 30px;
   position: relative;
   text-align: left;
   }
