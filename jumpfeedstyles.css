@@ -22,22 +22,21 @@ body {
   }
 
 .bottom-text {
-    font-family: 'Overpass', sans-serif;
-    color: white;
-    font-weight: 100;
-    font-size: 65px;
-    left: 20;
-    position: relative;
-    text-align: left;
-
-    }
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 65px;
+  left: 20;
+  position: relative;
+  text-align: left;
+  }
 
 .description-text {
-      font-family: 'Overpass', sans-serif;
-      color: white;
-      font-weight: 100;
-      font-size: 25px;
-      left: 20;
-      position: relative;
-      text-align: center;
-      }
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 25px;
+  left: 20;
+  position: relative;
+  text-align: center;
+  }
