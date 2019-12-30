@@ -24,32 +24,3 @@ body {
   top: 50%;
   width: 100%;
   }
-
-.bottom-text {
-  font-family: 'Overpass', sans-serif;
-  color: white;
-  position: relative;
-  font-weight: 900;
-  font-size: 60px;
-  left: 0;
-  line-height: 200px;
-  margin-top: -100px;
-  position: absolute;
-  text-align: left;
-  top: 60%;
-  width: 100%;
-}
-
-.description-text {
-  font-family: 'Overpass', sans-serif;
-  color: white;
-  position: relative;
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 200px;
-  margin-top: -100px;
-  position: absolute;
-  text-align: left;
-  top: 80%;
-  width: 100%;
-  }
