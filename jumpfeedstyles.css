@@ -10,3 +10,12 @@ body {
   margin: 0;
   background-color: #359CCA;
 }
+
+.top-text {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  position: relative;
+  font-weight: 300;
+  font-size: 40px;
+  float: center;
+}
