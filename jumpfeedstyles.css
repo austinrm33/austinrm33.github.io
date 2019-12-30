@@ -12,10 +12,25 @@ body {
 }
 
 .top-text {
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Overpass',
   color: white;
   position: relative;
   font-weight: 300;
   font-size: 40px;
-  float: center;
+}
+
+.bottom-text {
+  font-family: 'Overpass',
+  color: white;
+  position: relative;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.description-text {
+  font-family: 'Overpass',
+  color: white;
+  position: relative;
+  font-weight: 300;
+  font-size: 40px;
 }
