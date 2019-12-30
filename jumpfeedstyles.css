@@ -15,10 +15,8 @@ body {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  width: 600px;
   height: 300px;
   margin: 200px;
-  align-self: center;
 }
 
 .top-text {
