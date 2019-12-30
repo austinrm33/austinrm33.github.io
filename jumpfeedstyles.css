@@ -11,6 +11,15 @@ body {
   background-color: #359CCA;
 }
 
+.container-1 {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  top: 13px;
+  height: 200px;
+  float: center;
+}
+
 .top-text {
   font-family: 'Overpass', sans-serif;
   color: white;
@@ -19,8 +28,6 @@ body {
   position: relative;
   display: inline-block;
   text-align: left;
-  width: 100%;
-  margin: 0;
   }
 
 .bottom-text {
@@ -31,8 +38,6 @@ body {
   position: relative;
   display: inline-block;
   text-align: left;
-  width: 100%;
-  margin: 0;
   }
 
 .description-text {
@@ -43,6 +48,4 @@ body {
   position: relative;
   display: inline-block;
   text-align: left;
-  width: 100%;
-  margin: 0;
   }
