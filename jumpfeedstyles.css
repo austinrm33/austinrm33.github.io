@@ -14,12 +14,14 @@ body {
 .top-text {
   font-family: 'Overpass', sans-serif;
   color: white;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 40px;
   position: relative;
   display: inline-block;
   text-align: left;
-  width: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
   }
 
 .bottom-text {
