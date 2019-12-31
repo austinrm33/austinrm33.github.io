@@ -25,7 +25,7 @@ body {
 
 .company-logo {
   width: 60%;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .top-text {
@@ -78,7 +78,6 @@ a {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 6px;
-
   margin-right: 10px;
   outline: 0;
   transition: 0.3s;
