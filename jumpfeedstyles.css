@@ -75,7 +75,8 @@ a {
   display: inline-block;
   font-size: 17px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
+  
+
   cursor: pointer;
   border-radius: 6px;
   margin-top: 40px;
