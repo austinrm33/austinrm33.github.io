@@ -13,13 +13,14 @@ body {
 
 .container-1 {
   overflow: hidden;
-  position: relative;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
   width: 600px;
-  height: 300px;
+  height: 400px;
 }
 
 .top-text {
@@ -51,3 +52,32 @@ body {
   display: inline-block;
   text-align: left;
   }
+
+  .button {
+  background-color: #359CCA;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.button1 {
+  background-color: #359CCA;
+  color: white;
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: white;
+  color: #359CCA;
+}
