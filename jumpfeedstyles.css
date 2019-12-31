@@ -25,7 +25,6 @@ body {
 
 .company-logo {
   width: 60%;
-  margin-bottom: 30px;
 }
 
 .top-text {
@@ -36,6 +35,7 @@ body {
   position: relative;
   display: inline-block;
   text-align: left;
+  margin-top: 30px;
   }
 
 .bottom-text {
