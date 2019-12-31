@@ -18,12 +18,6 @@ body {
   height: 300px;
   margin: 500px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: left;
-  height: 100vh;
-  width: 100vw;
-  text-align: left;
 }
 
 .top-text {
