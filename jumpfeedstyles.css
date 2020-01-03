@@ -21,8 +21,8 @@ body {
   top: 0; left: 0; bottom: 0; right: 0;
   width: 545px;
   height: 500px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .company-logo {
@@ -45,7 +45,7 @@ h2 {
   font-family: 'Overpass', sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 66px;
   position: relative;
   display: inline-block;
   text-align: left;
@@ -56,7 +56,7 @@ p {
   font-family: 'Overpass', sans-serif;
   color: white;
   font-weight: 100;
-  font-size: 26px;
+  font-size: 25px;
   position: relative;
   display: inline-block;
   text-align: left;
