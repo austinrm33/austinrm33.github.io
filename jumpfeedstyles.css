@@ -81,6 +81,11 @@ a {
   cursor: pointer;
   border-radius: 6px;
   outline: 0;
+  transition: all 0.5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 .button1 {
